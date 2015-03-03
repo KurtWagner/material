@@ -15,7 +15,7 @@ $h5-margin-base: 1.67em 0 !default;
 
 $h6-font-size-base: 0.75em !default;
 $h6-margin-base: 2.33em 0 !default;
-/*
+
 *,
 *:before,
 *:after {
@@ -48,12 +48,7 @@ html, body {
   }
 }
 
-*/
-.apply_angular_material_style{
-	*:before,
-    *:after {
-      box-sizing: border-box;
-    }
+//.apply_angular_material_style{
 
 	button,
 	select,
@@ -165,7 +160,7 @@ html, body {
 	  text-transform: none;
 	  width: 1px;
 	}
-}
+//}
 .md-shadow {
   position: absolute;
   top: 0;
