@@ -49,7 +49,12 @@ html, body {
 }
 
 */
-.apply_anguar_style{
+.apply_angular_material_style{
+	*:before,
+    *:after {
+      box-sizing: border-box;
+    }
+
 	button,
 	select,
 	html,

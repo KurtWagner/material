@@ -38,60 +38,62 @@ html, body {
 }
 
 */
-.apply_anguar_style button, .apply_anguar_style select, .apply_anguar_style html, .apply_anguar_style textarea, .apply_anguar_style input {
+.apply_angular_material_style *:before, .apply_angular_material_style *:after {
+  box-sizing: border-box; }
+.apply_angular_material_style button, .apply_angular_material_style select, .apply_angular_material_style html, .apply_angular_material_style textarea, .apply_angular_material_style input {
   font-family: RobotoDraft, Roboto, 'Helvetica Neue', sans-serif; }
-.apply_anguar_style body {
+.apply_angular_material_style body {
   margin: 0;
   padding: 0;
   outline: none; }
-.apply_anguar_style .inset {
+.apply_angular_material_style .inset {
   padding: 10px; }
-.apply_anguar_style button {
+.apply_angular_material_style button {
   font-family: RobotoDraft, Roboto, 'Helvetica Neue', sans-serif; }
-.apply_anguar_style a {
+.apply_angular_material_style a {
   background: transparent;
   outline: none; }
-.apply_anguar_style h1 {
+.apply_angular_material_style h1 {
   font-size: 2em;
   margin: 0.67em 0; }
-.apply_anguar_style h2 {
+.apply_angular_material_style h2 {
   font-size: 1.5em;
   margin: 0.83em 0; }
-.apply_anguar_style h3 {
+.apply_angular_material_style h3 {
   font-size: 1.17em;
   margin: 1em 0; }
-.apply_anguar_style h4 {
+.apply_angular_material_style h4 {
   font-size: 1em;
   margin: 1.33em 0; }
-.apply_anguar_style h5 {
+.apply_angular_material_style h5 {
   font-size: 0.83em;
   margin: 1.67em 0; }
-.apply_anguar_style h6 {
+.apply_angular_material_style h6 {
   font-size: 0.75em;
   margin: 2.33em 0; }
-.apply_anguar_style select, .apply_anguar_style button, .apply_anguar_style textarea, .apply_anguar_style input {
+.apply_angular_material_style select, .apply_angular_material_style button, .apply_angular_material_style textarea, .apply_angular_material_style input {
   margin: 0;
   font-size: 100%;
   font-family: inherit;
   vertical-align: baseline; }
-.apply_anguar_style input[type="reset"], .apply_anguar_style input[type="submit"], .apply_anguar_style html input[type="button"], .apply_anguar_style button {
+.apply_angular_material_style input[type="reset"], .apply_angular_material_style input[type="submit"], .apply_angular_material_style html input[type="button"], .apply_angular_material_style button {
   cursor: pointer;
   -webkit-appearance: button; }
-  .apply_anguar_style input[type="reset"][disabled], .apply_anguar_style input[type="submit"][disabled], .apply_anguar_style html input[type="button"][disabled], .apply_anguar_style button[disabled] {
+  .apply_angular_material_style input[type="reset"][disabled], .apply_angular_material_style input[type="submit"][disabled], .apply_angular_material_style html input[type="button"][disabled], .apply_angular_material_style button[disabled] {
     cursor: default; }
-.apply_anguar_style textarea {
+.apply_angular_material_style textarea {
   vertical-align: top;
   overflow: auto; }
-.apply_anguar_style input[type="radio"], .apply_anguar_style input[type="checkbox"] {
+.apply_angular_material_style input[type="radio"], .apply_angular_material_style input[type="checkbox"] {
   padding: 0;
   box-sizing: border-box; }
-.apply_anguar_style input[type="search"] {
+.apply_angular_material_style input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
   -webkit-box-sizing: content-box; }
-  .apply_anguar_style input[type="search"]::-webkit-search-decoration, .apply_anguar_style input[type="search"]::-webkit-search-cancel-button {
+  .apply_angular_material_style input[type="search"]::-webkit-search-decoration, .apply_angular_material_style input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none; }
-.apply_anguar_style .visually-hidden {
+.apply_angular_material_style .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
