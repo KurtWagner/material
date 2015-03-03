@@ -15,13 +15,12 @@ $h5-margin-base: 1.67em 0 !default;
 
 $h6-font-size-base: 0.75em !default;
 $h6-margin-base: 2.33em 0 !default;
-
+/*
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
-
 :focus {
   outline: none;
 }
@@ -49,117 +48,119 @@ html, body {
   }
 }
 
-button,
-select,
-html,
-textarea,
-input {
-  font-family: $font-family;
-}
+*/
+.apply_anguar_style{
+	button,
+	select,
+	html,
+	textarea,
+	input {
+	  font-family: $font-family;
+	}
 
-body {
-  margin: 0;
-  padding: 0;
-  outline: none;
-}
+	body {
+	  margin: 0;
+	  padding: 0;
+	  outline: none;
+	}
 
-.inset {
-  padding: 10px;
-}
+	.inset {
+	  padding: 10px;
+	}
 
-button {
-  font-family: $font-family;
-}
+	button {
+	  font-family: $font-family;
+	}
 
-a {
-  background: transparent;
-  outline: none;
-}
+	a {
+	  background: transparent;
+	  outline: none;
+	}
 
-h1 {
-  font-size: $h1-font-size-base;
-  margin: $h1-margin-base;
-}
-h2 {
-  font-size: $h2-font-size-base;
-  margin: $h2-margin-base;
-}
-h3 {
-  font-size: $h3-font-size-base;
-  margin: $h3-margin-base;
-}
-h4 {
-  font-size: $h4-font-size-base;
-  margin: $h4-margin-base;
-}
-h5 {
-  font-size: $h5-font-size-base;
-  margin: $h5-margin-base;
-}
-h6 {
-  font-size: $h6-font-size-base;
-  margin: $h6-margin-base;
-}
+	h1 {
+	  font-size: $h1-font-size-base;
+	  margin: $h1-margin-base;
+	}
+	h2 {
+	  font-size: $h2-font-size-base;
+	  margin: $h2-margin-base;
+	}
+	h3 {
+	  font-size: $h3-font-size-base;
+	  margin: $h3-margin-base;
+	}
+	h4 {
+	  font-size: $h4-font-size-base;
+	  margin: $h4-margin-base;
+	}
+	h5 {
+	  font-size: $h5-font-size-base;
+	  margin: $h5-margin-base;
+	}
+	h6 {
+	  font-size: $h6-font-size-base;
+	  margin: $h6-margin-base;
+	}
 
-select,
-button,
-textarea,
-input {
-  margin: 0;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
+	select,
+	button,
+	textarea,
+	input {
+	  margin: 0;
+	  font-size: 100%;
+	  font-family: inherit;
+	  vertical-align: baseline;
+	}
+
+	// Fix Android 4.0 button bugs
+	input[type="reset"],
+	input[type="submit"],
+	html input[type="button"],
+	button {
+	  cursor: pointer;
+	  -webkit-appearance: button;
+
+	  &[disabled] {
+		cursor: default;
+	  }
+	}
+
+	textarea {
+	  vertical-align: top;
+	  overflow: auto;
+	}
+
+	input {
+	  &[type="radio"],
+	  &[type="checkbox"] {
+		padding: 0;
+		box-sizing: border-box;
+	  }
+
+	  &[type="search"] {
+		-webkit-appearance: textfield;
+		box-sizing: content-box;
+		-webkit-box-sizing: content-box;
+
+		&::-webkit-search-decoration,
+		&::-webkit-search-cancel-button {
+		  -webkit-appearance: none;
+		}
+	  }
+	}
+
+	.visually-hidden {
+	  border: 0;
+	  clip: rect(0 0 0 0);
+	  height: 1px;
+	  margin: -1px;
+	  overflow: hidden;
+	  padding: 0;
+	  position: absolute;
+	  text-transform: none;
+	  width: 1px;
+	}
 }
-
-// Fix Android 4.0 button bugs
-input[type="reset"],
-input[type="submit"],
-html input[type="button"],
-button {
-  cursor: pointer;
-  -webkit-appearance: button;
-
-  &[disabled] {
-    cursor: default;
-  }
-}
-
-textarea {
-  vertical-align: top;
-  overflow: auto;
-}
-
-input {
-  &[type="radio"],
-  &[type="checkbox"] {
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  &[type="search"] {
-    -webkit-appearance: textfield;
-    box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-
-    &::-webkit-search-decoration,
-    &::-webkit-search-cancel-button {
-      -webkit-appearance: none;
-    }
-  }
-}
-
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  text-transform: none;
-  width: 1px;
-}
-
 .md-shadow {
   position: absolute;
   top: 0;
