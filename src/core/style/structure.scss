@@ -21,9 +21,6 @@ $h6-margin-base: 2.33em 0 !default;
 *:after {
   box-sizing: border-box;
 }
-:focus {
-  outline: none;
-}
 
 html, body {
   height: 100%;
@@ -73,6 +70,9 @@ h6 {
   margin: $h6-margin-base;
 }
 */
+:focus {
+  outline: none;
+}
 .apply_angular_material_style{
 	*, *:before, *:after {
       box-sizing: border-box;
