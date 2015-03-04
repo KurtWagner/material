@@ -15,7 +15,7 @@ $h5-margin-base: 1.67em 0 !default;
 
 $h6-font-size-base: 0.75em !default;
 $h6-margin-base: 2.33em 0 !default;
-
+/*
 *,
 *:before,
 *:after {
@@ -48,20 +48,17 @@ html, body {
   }
 }
 
-//.apply_angular_material_style{
-
+*/
+.apply_angular_material_style{
+	*, *:before, *:after {
+      box-sizing: border-box;
+    }
 	button,
 	select,
 	html,
 	textarea,
 	input {
 	  font-family: $font-family;
-	}
-
-	body {
-	  margin: 0;
-	  padding: 0;
-	  outline: none;
 	}
 
 	.inset {
@@ -148,19 +145,18 @@ html, body {
 		}
 	  }
 	}
-
-	.visually-hidden {
-	  border: 0;
-	  clip: rect(0 0 0 0);
-	  height: 1px;
-	  margin: -1px;
-	  overflow: hidden;
-	  padding: 0;
-	  position: absolute;
-	  text-transform: none;
-	  width: 1px;
-	}
-//}
+}
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  text-transform: none;
+  width: 1px;
+}
 .md-shadow {
   position: absolute;
   top: 0;
